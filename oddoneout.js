@@ -1,5 +1,14 @@
-function oddOneOut(arrOfInts){
-    // Your code here!
+function oddOneOut(arrOfInts) {
+    let oddNumber;
+
+    for(num of arrOfInts) {
+        if(num % 2 !== 0) {
+            oddNumber = num;
+            break;
+        }
+    }
+
+    return oddNumber || -1;
 }
 
 

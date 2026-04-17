@@ -8,7 +8,5 @@ function strClean(arrOfStrs) {
     return cleanedStrings;
 }
 
-
-
 // DO NOT EDIT THE LINE BELOW THIS
 module.exports = strClean;

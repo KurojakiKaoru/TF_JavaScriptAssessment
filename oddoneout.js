@@ -11,6 +11,5 @@ function oddOneOut(arrOfInts) {
     return oddNumber || -1;
 }
 
-
 // DON'T EDIT THE LINE BELOW THIS COMMENT
 module.exports = oddOneOut;
